@@ -3,11 +3,11 @@
     width: 500px;
     border-radius: 20px;
     overflow: hidden;
-    transition: height 0.5s ease; /* Added transition property for smooth height change */
+    transition: height 0.5s ease;
   }
   
   .expanded {
-    height: max-content; /* Set an appropriate height for the expanded state */
+    height: max-content;
   }
   
   .head {
@@ -26,7 +26,7 @@
     font-family: "Outfit Sans", sans-serif;
     justify-content: space-between;
     align-items: center;
-    transition: color 0.3s ease; /* Added transition for smooth background color change */
+    transition: color 0.3s ease;
   }
   .expanded .head {
     color: #8247ff;

@@ -10,7 +10,7 @@ const Prices = ({type, price, benefits}) => {
         {Array.isArray(benefits) &&
           benefits.map((benefit, index) => (
             <li key={index} className="Prices__benefits-item">
-              {benefit}
+              {"✅"} {benefit}
             </li>
           ))}
       </ul>

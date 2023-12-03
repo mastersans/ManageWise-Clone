@@ -3,9 +3,10 @@
     align-items: flex-start;
     background-color: #ededfa;
     width: 387px;
+    height: 400px;
     border-radius: 20px;
     padding: 40px 30px;
-    margin: 20px;
+    margin: 10px;
     will-change: transform;
   }
   
@@ -15,14 +16,14 @@
     font-family: "Outfit", sans-serif;
     padding: 4px 10px;
     width: fit-content;
-    border-radius: 10px;
+    border-radius: 7px;
     background-color:white;
     font-weight: bold;
     margin-bottom: 10px;
   }
   
   .Prices__price {
-    font-size: 36px;
+    font-size: 45px;
     font-family: "Outfit", sans-serif;
     font-weight: bold;
     margin-bottom: 10px;
@@ -54,11 +55,19 @@
   .Prices_button {
     background-color: white;
     color: #1c1c1c;
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    border: 2px solid transparent;
+    transition: border-color 0.5s ease;
     font-family: "Outfit", sans-serif;
     font-size: 18px;
     font-weight: 600;
-    border: none;
     border-radius: 10px;
     padding: 16px 20px;
     cursor: pointer;
   }
+  .Prices_button:hover {
+    border-color: #ddd;
+  }
+

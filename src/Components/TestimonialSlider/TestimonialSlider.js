@@ -1,7 +1,7 @@
-// ClientTestimonialsSlider.js
+
 import React, { useEffect, useRef } from 'react';
-import Testimonial from '../Testimonials/Testimonial'; // Assuming you have a Testimonial component
-import './TestimonialSlider.css'; // Add your CSS file for styling
+import Testimonial from '../Testimonials/Testimonial'; 
+import './TestimonialSlider.css'; 
 
 const testimonialsData = [
   {
