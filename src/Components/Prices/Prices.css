@@ -1,0 +1,64 @@
+.Prices {
+    display: left;
+    align-items: flex-start;
+    background-color: #ededfa;
+    width: 387px;
+    border-radius: 20px;
+    padding: 40px 30px;
+    margin: 20px;
+    will-change: transform;
+  }
+  
+  .Prices__type {
+    font-size:12px;
+    color: #fe8162;
+    font-family: "Outfit", sans-serif;
+    padding: 4px 10px;
+    width: fit-content;
+    border-radius: 10px;
+    background-color:white;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .Prices__price {
+    font-size: 36px;
+    font-family: "Outfit", sans-serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .Prices__month {
+    font-size: 16px;
+    color: #333333;
+    font-family: "Inter-Medium", "Inter", sans-serif ;
+  }
+
+  .Prices__benefits {
+    list-style: none;
+    margin: 0;
+    gap: 10px;
+    padding-left: 0;
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+  
+  .Prices__benefits li {
+    font-size: 16px;
+    color: #767575;
+    position: relative;
+    font-family: "Inter-Placeholder", "Inter", sans-serif ;
+    margin-bottom: 10px;
+  }
+  
+  .Prices_button {
+    background-color: white;
+    color: #1c1c1c;
+    font-family: "Outfit", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    padding: 16px 20px;
+    cursor: pointer;
+  }

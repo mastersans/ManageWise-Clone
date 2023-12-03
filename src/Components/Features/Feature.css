@@ -1,0 +1,38 @@
+.feature-container {
+    display: left;
+    align-items: flex-start;
+    border: 1px solid #ccc;
+    background-color: #ffffff;
+    width: 387px;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.feature-image {
+    width: 100%; 
+    height: auto; 
+}
+
+.feature-details {
+    flex-grow: 1;
+}
+
+.feature-title {
+    font-family: "Outfit", sans-serif;
+    filter: contrast(17);
+    font-size: 24px;
+    padding-left: 25px;
+    margin-bottom: 3px;
+}
+
+.feature-description {
+    font-size: 16px;
+    word-wrap: break-word;
+    filter: contrast(3%);
+    font-weight: 500;
+    font-family: "Inter-Medium", "Inter", sans-serif ;
+    padding-left: 25px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    color: #555;
+}

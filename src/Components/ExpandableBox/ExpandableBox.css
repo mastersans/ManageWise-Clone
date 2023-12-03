@@ -1,0 +1,50 @@
+
+.expandable-box {
+    width: 500px;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: height 0.5s ease; /* Added transition property for smooth height change */
+  }
+  
+  .expanded {
+    height: max-content; /* Set an appropriate height for the expanded state */
+  }
+  
+  .head {
+    background-color: #f7f8fd;
+    color: #1c1c1c;
+    font-family: "Outfit", sans-serif;
+    width: fit-content;
+    font-weight: bold;
+    font-size: 22px;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 15px;
+    cursor: pointer;
+    display:flex;
+    font-family: "Outfit Sans", sans-serif;
+    justify-content: space-between;
+    align-items: center;
+    transition: color 0.3s ease; /* Added transition for smooth background color change */
+  }
+  .expanded .head {
+    color: #8247ff;
+  }
+  
+  .description {
+    padding-left: 30px;
+    padding-bottom: 20px;
+    padding-right: 25px;
+    color: #767575;
+    font-family: "Inter-Medium", "Inter", sans-serif;
+    background-color: #f7f8fd;
+    display: none;
+    
+  }
+  
+  .expanded .description {
+    width: auto;
+    display: block;
+  }
+  

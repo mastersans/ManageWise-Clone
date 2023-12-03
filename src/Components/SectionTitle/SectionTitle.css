@@ -1,0 +1,34 @@
+.section-title {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    background-color: #ffffff;
+    border: var(--border-width, 1px) var(--border-style, solid) var(--border-color, #ddd);
+    border-radius: var(--border-radius, 13px);
+    box-sizing: border-box;
+    padding: auto;
+    margin: auto;
+  }
+  
+  .emoji {
+    font-size: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .text {
+    flex: 1;
+    margin-right: 10px;
+    color: #8247FF;
+    font-family: "Outfit", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+  
+  h1 {
+    background-color: var(--token-20257545-130a-452b-8942-48d79a1f3d66, rgb(255, 255, 255));
+    opacity: 1;
+  }
+  
