@@ -26,7 +26,7 @@ const Header = () => {
             <Link to="PriceSection" smooth={true} duration={500}>Pricing</Link>
           </li>
           <li>
-            <Link to="testimonials" smooth={true} duration={500}>Testimonials</Link>
+            <Link to="Testimonial" smooth={true} duration={500}>Testimonials</Link>
           </li>
           <li>
             <button className='buytemplate'>Buy Template</button>

@@ -5,7 +5,10 @@ import Prices from "../Prices/Prices";
 const PriceSection = () => {
     return (
         <>
-         <SectionTitle emoji="💲" text="Pricing"/>
+         <div name="PriceSection">
+         <div className="prices-st"><SectionTitle emoji="💲" text="Pricing"/></div>
+         <div className="prices-title">Select your ideal&nbsp;<span className="highlighted"> Pricing </span>&nbsp;plan</div>
+         <div className="prices-description">At Manage Wise, we believe in providing you with<br/> pricing plans that adapt to your unique needs.</div>
          <div className="prices-container">
          <Prices type="FREE" price="$0" benefits={["Access to all basic features",
                                                     "Reporting and analytics",
@@ -22,7 +25,9 @@ const PriceSection = () => {
                                                     "Up to 5 individual users",
                                                     "Chat and email support",
                                                     "3+ integrations"]} />                                                                                     
-        </div></>
+        </div>
+        </div>
+        </>
         
     );
 }

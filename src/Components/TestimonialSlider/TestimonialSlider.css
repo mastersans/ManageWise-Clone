@@ -1,4 +1,30 @@
-/* TestimonialSlider.css */
+.testimonial-st {
+     display: flex;
+     justify-content: left;
+     margin-left: 60px;
+     margin-bottom: 15px;
+     margin-top:20px;
+}
+.testimonial-title {
+  font-size: 45px;
+  display: flex;
+  margin-left: 60px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  justify-content: left;
+  font-family: "Outfit", sans-serif;
+}
+.testimonial-description {
+  font-size: 20px;
+  color:#767575;
+  font-weight:bold;
+  margin-left: 60px;
+  font-family: "Inter", sans-serif;
+  text-align: left;
+  display: flex;
+  justify-content: left;
+  margin-bottom: 30px;
+}
 .client-testimonials-slider {
     width: fit-content;
     height: 400px;
@@ -16,7 +42,7 @@
   
   @keyframes testimonialSlide {
     0%, -100%{
-      transform: translateX(-100%); /* Change to move from right to left */
+      transform: translateX(-100%); 
     }
     100% {
       transform: translateX(100%);

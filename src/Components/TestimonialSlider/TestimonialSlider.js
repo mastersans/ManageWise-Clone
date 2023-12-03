@@ -1,4 +1,4 @@
-
+import SectionTitle from '../SectionTitle/SectionTitle';
 import React, { useEffect, useRef } from 'react';
 import Testimonial from '../Testimonials/Testimonial'; 
 import './TestimonialSlider.css'; 
@@ -46,6 +46,10 @@ const TestimonialsSlider = () => {
   }, []);
 
   return (
+    <div name="Testimonial">
+    <div className="testimonial-st"><SectionTitle emoji="🧡" text="Testimonial"/></div>
+    <div className="testimonial-title">Hear from our&nbsp;<span className="highlighted"> Satisfied </span>&nbsp;clients</div>
+    <div className="testimonial-description">Discover why our clients love working with us. Read their<br/> testimonials and learn how we has helped businesses.</div>
     <div className="client-testimonials-slider animate" ref={sliderRef}>
       {testimonialsData.map((testimonial) => (
         <Testimonial
@@ -56,6 +60,7 @@ const TestimonialsSlider = () => {
           designation={testimonial.designation}
         />
       ))}
+    </div>
     </div>
   );
 };

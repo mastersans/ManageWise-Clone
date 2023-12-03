@@ -6,3 +6,6 @@ body {
     padding: 0;
     width: 100vw;
   }
+.highlighted {
+  color: #fe8162;
+}
