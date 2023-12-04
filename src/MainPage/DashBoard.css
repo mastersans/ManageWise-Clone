@@ -1,0 +1,12 @@
+.dash {
+    width: 1200px;
+    height: auto;
+    border-radius: 25px;
+    box-sizing: border-box;
+}
+
+.dashboard {
+    display: flex;
+    justify-content: center;
+    margin-bottom : 50px;
+}

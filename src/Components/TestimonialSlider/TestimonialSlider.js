@@ -35,7 +35,7 @@ const testimonialsData = [
 ];
 
 const TestimonialsSlider = () => {
-  const sliderRef = useRef(null);
+/*  const sliderRef = useRef(null);
 
   useEffect(() => {
     const slider = sliderRef.current;
@@ -43,14 +43,14 @@ const TestimonialsSlider = () => {
     const totalWidth = testimonials.length * testimonials[0].offsetWidth;
 
     slider.style.width = `${totalWidth}px`;
-  }, []);
+  }, []);*/
 
   return (
     <div name="Testimonial">
     <div className="testimonial-st"><SectionTitle emoji="🧡" text="Testimonial"/></div>
     <div className="testimonial-title">Hear from our&nbsp;<span className="highlighted"> Satisfied </span>&nbsp;clients</div>
     <div className="testimonial-description">Discover why our clients love working with us. Read their<br/> testimonials and learn how we has helped businesses.</div>
-    <div className="client-testimonials-slider animate" ref={sliderRef}>
+    <div className="client-testimonials-slider animate"/* ref={sliderRef}*/>
       {testimonialsData.map((testimonial) => (
         <Testimonial
           key={testimonial.id}
