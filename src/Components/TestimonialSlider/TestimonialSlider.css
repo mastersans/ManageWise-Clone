@@ -1,6 +1,7 @@
 .testimonial-st {
-     display: flex;
-     justify-content: left;
+     display: left;
+     justify-content: center;
+     align-items: center;
      margin-left: 60px;
      margin-bottom: 15px;
      margin-top:20px;
@@ -29,28 +30,21 @@
     width: fit-content;
     height: 400px;
     display:flex;
-  }
-  
-  .client-testimonials-slider .client-testimonial {
-    transition: transform 0.5s ease-in-out;
-  }
-  
-  .client-testimonials-slider .client-testimonial:last-child {
-    margin-right: 0;
-    transition: transform 2s linear;
+    justify-content: left;
+    align-items: left;
   }
   
   @keyframes testimonialSlide {
-    0%, -100%{
-      transform: translateX(-100%); 
-    }
     100% {
+      transform: translateX(-100%);
+    }
+    0% {
       transform: translateX(100%);
     }
   }
   
   .client-testimonials-slider.animate .client-testimonial {
-    animation: testimonialSlide 10s infinite;
+    animation: testimonialSlide 5s infinite;
   }
   
   
