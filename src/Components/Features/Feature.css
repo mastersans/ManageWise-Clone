@@ -1,11 +1,9 @@
 .feature-container {
-    display: left;
-    align-items: flex-start;
-    border: 1px solid #ccc;
+    border: 1px solid #cccccc5d;
     background-color: #ffffff;
     width: 387px;
-    border-radius: 20px;
-    margin: 10px;
+    border-radius: 25px;
+    margin: 20px;
 }
 
 .feature-image {

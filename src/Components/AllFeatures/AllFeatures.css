@@ -1,0 +1,21 @@
+.lower-features {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.upper-features {
+   display: flex;
+   justify-content: center;
+}
+.upper-right {
+    display: flex;
+    align-items:center;
+    margin-left:20px;
+}
+.all-features {
+    margin-top: 80px;
+}
+
+
+
+

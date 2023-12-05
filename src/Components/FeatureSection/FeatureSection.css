@@ -1,0 +1,22 @@
+
+.feature-st {
+    display: flex;
+    justify-content: center;
+}
+.feature-tit {
+    font-size: 60px;
+    display: flex;
+    padding: 10px;
+    font-weight: bold;
+    justify-content: center;
+    font-family: "Outfit", sans-serif;
+}
+.feature-des {
+    font-size: 20px;
+    color:#767575;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}

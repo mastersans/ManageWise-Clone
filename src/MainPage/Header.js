@@ -17,16 +17,16 @@ const Header = () => {
       <div className="navigation">
         <ul>
           <li>
-            <Link to="features" smooth={true} duration={500}>Features</Link>
+            <Link to="FeatureSection" smooth={true} duration={500}>Features</Link>
           </li>
           <li>
-            <Link to="faq" smooth={true} duration={500}>FAQ</Link>
+            <Link to="faq" smooth={true} duration={1500}>FAQ</Link>
           </li>
           <li>
-            <Link to="PriceSection" smooth={true} duration={500}>Pricing</Link>
+            <Link to="PriceSection" smooth={true} duration={1500}>Pricing</Link>
           </li>
           <li>
-            <Link to="Testimonial" smooth={true} duration={500}>Testimonials</Link>
+            <Link to="Testimonial" smooth={true} duration={1500}>Testimonials</Link>
           </li>
           <li>
             <button className='buytemplate'>Buy Template</button>

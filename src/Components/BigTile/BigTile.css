@@ -1,0 +1,36 @@
+.bigtile-container {
+    border: 1px solid #cccccc62;
+    background-color: #ffffff;
+    width: 600px;
+    border-radius: 25px;
+    margin: 10px;
+}
+
+.bigtile-image {
+    width: 100%; 
+    height: auto; 
+}
+
+.bigtile-details {
+    flex-grow: 1;
+}
+
+.bigtile-title {
+    font-family: "Outfit", sans-serif;
+    filter: contrast(17);
+    font-size: 24px;
+    padding-left: 25px;
+    margin-bottom: 3px;
+}
+
+.bigtile-description {
+    font-size: 16px;
+    word-wrap: break-word;
+    filter: contrast(3%);
+    font-weight: 500;
+    font-family: "Inter-Medium", "Inter", sans-serif ;
+    padding-left: 25px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    color: #555;
+}

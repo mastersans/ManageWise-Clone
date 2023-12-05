@@ -1,0 +1,40 @@
+.nonimagefeature-container {
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    align-items: flex-start;
+    font-family: "Outfit", sans-serif;
+    background-color: #ededfa;
+    height: 463px;
+    width: 570px;
+    border-radius: 20px;
+    margin: 10px;
+    position: relative;
+}
+
+.nonimagefeature-description {
+    font-size: 42px;
+    word-wrap: break-word;
+    filter: contrast(50%);
+    font-weight: bold;
+    font-family: "Outfit", sans-serif;
+    padding-top: 30px;
+    padding-left: 30px;
+    margin-right:40px;
+    padding-bottom: 10px;
+    color: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.nonimagefeature-emoji {
+    margin: 20px;
+    font-size: 22px;
+    border-radius: 20px;
+    background-color: white;
+    padding: 15px;
+    position: absolute;
+    top: 35px;
+    left: 0;
+}
